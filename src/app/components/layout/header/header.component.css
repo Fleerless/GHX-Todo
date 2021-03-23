@@ -1,0 +1,21 @@
+.header {
+    background: #868686;
+    color: #0032A0;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.header a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.title1 {
+    color: #FFFFFF;
+}
+
+.title2 {
+    color: #FFCC00;
+}
