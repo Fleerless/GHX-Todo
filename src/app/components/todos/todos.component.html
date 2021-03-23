@@ -1,10 +1,17 @@
 <app-add-todo (addTodo)="addTodo($event)"></app-add-todo>
-<h2>Personal:</h2>
+<h3>Personal:</h3>
 <app-todo-item 
-    *ngFor="let Todo of todos" 
-    [Todo]="Todo"
-    (deleteTodo)="deleteTodo($event)"
+*ngFor="let Todo of todos" 
+[Todo]="Todo"
+(deleteTodo)="deleteTodo($event)"
 >
-    <li>{{ Todo.title }}</li>
+<li>{{ Todo.title }}</li>
 </app-todo-item>
+<h3>Random:</h3>
+
+<div class="letter-container">
+    <p class='letter'>Thank you for taking the time to review my application. I know that this is an Angular role, and I wanted to show that my React experience can quickly translate to Angular. This simple Todo application utilizes the HTTP module to retreive sample data from an API. My goal is to show that Angular is not a hurdle for me. I wanted to create a simple app in Angular to demonstrate both my work ethic, and my ability to learn new things quickly. Hopefully this will show you that I would be a fantastic addition to the team!</p>
+    <p>Thank You,</p>
+    <p class='name'>Jeff</p>
+</div>
 
